@@ -1,0 +1,17 @@
+04-02-2024 22:10:06.305 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-02-2024 22:10:06.306 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-02-2024 22:10:06.306 [Gauge] [DEBUG] Adding specs from /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/specs/example.spec
+04-02-2024 22:10:06.306 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-02-2024 22:10:06.306 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52339
+04-02-2024 22:10:06.307 [Gauge] [DEBUG] Watching directory: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/specs
+04-02-2024 22:10:06.307 [Gauge] [DEBUG] Found 1 files
+04-02-2024 22:10:11.474 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest  messageId:5  libPathRequest:{language:"java"}
+04-02-2024 22:10:11.476 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse  messageId:5  libPathResponse:{path:"/Users/eyupcansonmez/.gauge/plugins/java/0.9.1/libs"}
+04-02-2024 22:10:17.642 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-02-2024 22:10:17.643 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-02-2024 22:10:17.643 [Gauge] [DEBUG] Adding specs from /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/specs/example.spec
+04-02-2024 22:10:17.643 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-02-2024 22:10:17.643 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52370
+04-02-2024 22:10:17.644 [Gauge] [DEBUG] Watching directory: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/specs
+04-02-2024 22:10:17.644 [Gauge] [DEBUG] Found 1 files
+04-02-2024 22:14:46.720 [Gauge] [DEBUG] Spec file removed: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/specs/example.spec

@@ -1,0 +1,873 @@
+04-02-2024 22:15:35.092 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/.gauge/screenshots
+04-02-2024 22:15:35.094 [Gauge] [DEBUG] Plugin java is already installed.
+04-02-2024 22:15:35.096 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-02-2024 22:15:35.097 [Gauge] [DEBUG] Parsing started.
+04-02-2024 22:15:35.097 [Gauge] [DEBUG] Started concepts parsing.
+04-02-2024 22:15:35.105 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-02-2024 22:15:35.106 [Gauge] [DEBUG] Started specifications parsing.
+04-02-2024 22:15:35.107 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-02-2024 22:15:35.107 [Gauge] [DEBUG] Parsing completed.
+04-02-2024 22:15:35.292 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-02-2024 22:15:35.292 [java] [DEBUG] PATH: /Users/eyupcansonmez/anaconda3/bin:/Users/eyupcansonmez/anaconda3/condabin:/usr/local/sbin:/Users/eyupcansonmez/Library/Python/3.11/bin:/usr/local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/eyupcansonmez/testinium/sdk/build-tools:/Users/eyupcansonmez/testinium/sdk/platform-tools:/Users/eyupcansonmez/testinium/sdk/tools:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/eyupcansonmez/testinium/maven/apache-maven-3.8.6/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/eyupcansonmez/.gauge/plugins/screenshot/0.1.0
+04-02-2024 22:15:35.292 [java] [DEBUG] JAVA_HOME: /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home
+04-02-2024 22:15:35.292 [java] [DEBUG] gauge_project_root: 
+04-02-2024 22:15:35.292 [java] [DEBUG] gauge_parallel_streams_count: 
+04-02-2024 22:15:35.292 [java] [DEBUG] gauge_reports_dir: reports
+04-02-2024 22:15:35.292 [java] [DEBUG] overwrite_reports: true
+04-02-2024 22:15:35.293 [java] [DEBUG] logs_directory: logs
+04-02-2024 22:15:35.293 [java] [DEBUG] enable_multithreading: false
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_specs_dir: specs
+04-02-2024 22:15:35.293 [java] [DEBUG] csv_delimiter: ,
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_java_home: 
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_custom_build_path: 
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_additional_libs: libs/*
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_jvm_args: 
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_custom_compile_dir: 
+04-02-2024 22:15:35.293 [java] [DEBUG] gauge_clear_state_level: scenario
+04-02-2024 22:15:35.293 [java] [DEBUG] ***** END *****
+04-02-2024 22:15:35.570 [Gauge] [DEBUG] Checking updates...
+04-02-2024 22:15:35.571 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:15:36.047 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:15:36.123 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:15:36.187 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:15:36.253 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:15:38.751 [java] [DEBUG] classpath set to /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/charsets.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/dnsns.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jaccess.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/localedata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/nashorn.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunec.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/zipfs.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jce.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfr.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfxswt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jsse.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/management-agent.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/resources.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/rt.jar:/Users/eyupcansonmez/Desktop/AmadeusAutomationProject/target/test-classes:/Users/eyupcansonmez/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eyupcansonmez/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/eyupcansonmez/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/eyupcansonmez/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/eyupcansonmez/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/eyupcansonmez/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/eyupcansonmez/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/eyupcansonmez/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/eyupcansonmez/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/eyupcansonmez/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/eyupcansonmez/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/eyupcansonmez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/eyupcansonmez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/eyupcansonmez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/eyupcansonmez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/eyupcansonmez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eyupcansonmez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/eyupcansonmez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+04-02-2024 22:15:38.773 [java] [DEBUG] found java executable in /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java
+04-02-2024 22:15:38.774 [java] [DEBUG] running - /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-02-2024 22:15:38.774 [java] [DEBUG] stdout/stderr is logged to logs/9164-java.out
+04-02-2024 22:15:38.898 [java] [DEBUG] multithreading is set to false
+04-02-2024 22:15:39.251 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-02-2024 22:15:39.371 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+04-02-2024 22:15:39.371 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+04-02-2024 22:15:39.371 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+04-02-2024 22:15:39.581 [java] [DEBUG] gauge-java took 682milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-02-2024 22:15:39.581 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 682
+04-02-2024 22:15:39.581 [java] [DEBUG] starting gRPC server...
+04-02-2024 22:15:39.738 [java] [DEBUG] started gRPC server on port 52441
+04-02-2024 22:15:39.738 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52441
+04-02-2024 22:15:39.869 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52441
+04-02-2024 22:15:39.869 [Gauge] [DEBUG] Validation started.
+04-02-2024 22:15:42.063 [java] [INFO] 2024-02-04 22:15:42 INFO  Reflections:219 scan - Reflections took 2689 ms to scan 85 urls, producing 10340 keys and 57517 values
+04-02-2024 22:15:42.789 [java] [DEBUG] Scanning packages for steps
+04-02-2024 22:15:42.797 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'
+04-02-2024 22:15:42.797 [java] [DEBUG] Found {} adresinden gelen cevabın yapısını doğrula in current project scope.
+04-02-2024 22:15:42.797 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'
+04-02-2024 22:15:42.797 [java] [DEBUG] Found {} elementinin metnini kontrol et {} in current project scope.
+04-02-2024 22:15:42.798 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'
+04-02-2024 22:15:42.798 [java] [DEBUG] Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope.
+04-02-2024 22:15:42.798 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'
+04-02-2024 22:15:42.798 [java] [DEBUG] Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope.
+04-02-2024 22:15:42.798 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'
+04-02-2024 22:15:42.798 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+04-02-2024 22:15:42.799 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'
+04-02-2024 22:15:42.799 [java] [DEBUG] Found {} elementinin disabled olduğunu kotrol et in current project scope.
+04-02-2024 22:15:42.799 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'
+04-02-2024 22:15:42.799 [java] [DEBUG] Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope.
+04-02-2024 22:15:42.799 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'
+04-02-2024 22:15:42.799 [java] [DEBUG] Found {} saniye bekle in current project scope.
+04-02-2024 22:15:42.799 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'
+04-02-2024 22:15:42.799 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+04-02-2024 22:15:42.800 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'
+04-02-2024 22:15:42.800 [java] [DEBUG] Found {} elementinin {} niteliği {} değerine sahip mi in current project scope.
+04-02-2024 22:15:42.800 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'
+04-02-2024 22:15:42.800 [java] [DEBUG] Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope.
+04-02-2024 22:15:42.800 [java] [DEBUG] Scanning packages for hooks
+04-02-2024 22:15:42.806 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-02-2024 22:15:42.806 [java] [DEBUG] 	{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)
+04-02-2024 22:15:42.806 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException
+04-02-2024 22:15:42.806 [java] [DEBUG] 	{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)
+04-02-2024 22:15:42.806 [java] [DEBUG] 	{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)
+04-02-2024 22:15:42.806 [java] [DEBUG] 	{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)
+04-02-2024 22:15:42.807 [java] [DEBUG] 	{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)
+04-02-2024 22:15:42.807 [java] [DEBUG] 	GET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)
+04-02-2024 22:15:42.807 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+04-02-2024 22:15:42.807 [java] [DEBUG] 	{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException
+04-02-2024 22:15:42.807 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)
+04-02-2024 22:15:42.807 [java] [DEBUG] 	{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)
+04-02-2024 22:15:43.662 [java] [INFO] 2024-02-04 22:15:43 INFO  Reflections:219 scan - Reflections took 850 ms to scan 85 urls, producing 10250 keys and 48504 values
+04-02-2024 22:15:43.727 [Gauge] [DEBUG] Validation completed.
+04-02-2024 22:15:43.727 [Gauge] [DEBUG] Run started
+04-02-2024 22:15:43.728 [Gauge] [DEBUG] Starting Html Report plugin
+04-02-2024 22:15:43.781 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52447
+04-02-2024 22:15:43.783 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52447
+04-02-2024 22:15:43.783 [Gauge] [DEBUG] Initialising suite data store.
+04-02-2024 22:15:43.815 [java] [INFO] 2024-02-04 22:15:43 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:15:43.838 [java] [ERROR] Şub 04, 2024 10:15:43 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:15:43.838 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:15:43.862 [java] [INFO] 2024-02-04 22:15:43 INFO  FrontEndTestBase:112 startSetup - Driver başlatılırken hata oluştu The driver executable does not exist: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/web_driver/chromedriver
+04-02-2024 22:15:43.871 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:15:44.251 [java] [ERROR] 2024-02-04 22:15:44.250 java[9183:316121] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+04-02-2024 22:15:48.680 [java] [INFO] 2024-02-04 22:15:48 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:15:48.681 [java] [ERROR] Şub 04, 2024 10:15:48 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:15:48.681 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:15:48.683 [java] [INFO] 2024-02-04 22:15:48 INFO  FrontEndTestBase:112 startSetup - Driver başlatılırken hata oluştu The driver executable does not exist: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/web_driver/chromedriver
+04-02-2024 22:15:48.689 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:15:49.592 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-02-2024 22:15:49.753 [html-report] [INFO] Successfully generated html-report to => /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/reports/html-report/index.html
+04-02-2024 22:15:49.753 [html-report] [DEBUG] Done generating HTML report using theme from /Users/eyupcansonmez/.gauge/plugins/html-report/4.0.9/themes/default
+04-02-2024 22:15:49.753 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-02-2024 22:15:49.754 [java] [DEBUG] Killing Java runner...
+04-02-2024 22:15:49.755 [java] [DEBUG] Stopping execution pool...
+04-02-2024 22:15:49.755 [java] [DEBUG] Shutting down grpc server...
+04-02-2024 22:15:49.759 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-02-2024 22:15:49.760 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+04-02-2024 22:15:49.760 [Gauge] [INFO] 
+Total time taken: 5.861s
+04-02-2024 22:15:49.760 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-02-2024 22:16:36.639 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/.gauge/screenshots
+04-02-2024 22:16:36.640 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-02-2024 22:16:36.641 [Gauge] [DEBUG] Plugin java is already installed.
+04-02-2024 22:16:36.642 [Gauge] [DEBUG] Parsing started.
+04-02-2024 22:16:36.642 [Gauge] [DEBUG] Started concepts parsing.
+04-02-2024 22:16:36.647 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-02-2024 22:16:36.647 [Gauge] [DEBUG] Started specifications parsing.
+04-02-2024 22:16:36.648 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-02-2024 22:16:36.648 [Gauge] [DEBUG] Parsing completed.
+04-02-2024 22:16:36.661 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-02-2024 22:16:36.661 [java] [DEBUG] PATH: /Users/eyupcansonmez/anaconda3/bin:/Users/eyupcansonmez/anaconda3/condabin:/usr/local/sbin:/Users/eyupcansonmez/Library/Python/3.11/bin:/usr/local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/eyupcansonmez/testinium/sdk/build-tools:/Users/eyupcansonmez/testinium/sdk/platform-tools:/Users/eyupcansonmez/testinium/sdk/tools:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/eyupcansonmez/testinium/maven/apache-maven-3.8.6/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/eyupcansonmez/.gauge/plugins/screenshot/0.1.0
+04-02-2024 22:16:36.661 [java] [DEBUG] JAVA_HOME: /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home
+04-02-2024 22:16:36.661 [java] [DEBUG] gauge_project_root: 
+04-02-2024 22:16:36.661 [java] [DEBUG] gauge_parallel_streams_count: 
+04-02-2024 22:16:36.661 [java] [DEBUG] gauge_reports_dir: reports
+04-02-2024 22:16:36.661 [java] [DEBUG] overwrite_reports: true
+04-02-2024 22:16:36.661 [java] [DEBUG] logs_directory: logs
+04-02-2024 22:16:36.661 [java] [DEBUG] enable_multithreading: false
+04-02-2024 22:16:36.661 [java] [DEBUG] gauge_specs_dir: specs
+04-02-2024 22:16:36.661 [java] [DEBUG] csv_delimiter: ,
+04-02-2024 22:16:36.661 [java] [DEBUG] gauge_java_home: 
+04-02-2024 22:16:36.662 [java] [DEBUG] gauge_custom_build_path: 
+04-02-2024 22:16:36.662 [java] [DEBUG] gauge_additional_libs: libs/*
+04-02-2024 22:16:36.662 [java] [DEBUG] gauge_jvm_args: 
+04-02-2024 22:16:36.662 [java] [DEBUG] gauge_custom_compile_dir: 
+04-02-2024 22:16:36.662 [java] [DEBUG] gauge_clear_state_level: scenario
+04-02-2024 22:16:36.662 [java] [DEBUG] ***** END *****
+04-02-2024 22:16:37.336 [Gauge] [DEBUG] Checking updates...
+04-02-2024 22:16:37.338 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:16:37.680 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:16:37.755 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:16:37.821 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:16:37.886 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:16:39.572 [java] [DEBUG] classpath set to /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/charsets.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/dnsns.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jaccess.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/localedata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/nashorn.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunec.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/zipfs.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jce.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfr.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfxswt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jsse.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/management-agent.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/resources.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/rt.jar:/Users/eyupcansonmez/Desktop/AmadeusAutomationProject/target/test-classes:/Users/eyupcansonmez/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eyupcansonmez/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/eyupcansonmez/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/eyupcansonmez/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/eyupcansonmez/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/eyupcansonmez/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/eyupcansonmez/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/eyupcansonmez/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/eyupcansonmez/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/eyupcansonmez/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/eyupcansonmez/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/eyupcansonmez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/eyupcansonmez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/eyupcansonmez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/eyupcansonmez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/eyupcansonmez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eyupcansonmez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/eyupcansonmez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+04-02-2024 22:16:39.584 [java] [DEBUG] found java executable in /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java
+04-02-2024 22:16:39.585 [java] [DEBUG] running - /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-02-2024 22:16:39.585 [java] [DEBUG] stdout/stderr is logged to logs/9221-java.out
+04-02-2024 22:16:39.697 [java] [DEBUG] multithreading is set to false
+04-02-2024 22:16:39.998 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-02-2024 22:16:40.107 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+04-02-2024 22:16:40.107 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+04-02-2024 22:16:40.107 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+04-02-2024 22:16:40.208 [java] [DEBUG] gauge-java took 511milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-02-2024 22:16:40.208 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 511
+04-02-2024 22:16:40.208 [java] [DEBUG] starting gRPC server...
+04-02-2024 22:16:40.577 [java] [DEBUG] started gRPC server on port 52460
+04-02-2024 22:16:40.577 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52460
+04-02-2024 22:16:40.669 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52460
+04-02-2024 22:16:40.669 [Gauge] [DEBUG] Validation started.
+04-02-2024 22:16:42.703 [java] [INFO] 2024-02-04 22:16:42 INFO  Reflections:219 scan - Reflections took 2592 ms to scan 85 urls, producing 10340 keys and 57517 values
+04-02-2024 22:16:43.155 [java] [DEBUG] Scanning packages for steps
+04-02-2024 22:16:43.162 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'
+04-02-2024 22:16:43.163 [java] [DEBUG] Found {} adresinden gelen cevabın yapısını doğrula in current project scope.
+04-02-2024 22:16:43.163 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'
+04-02-2024 22:16:43.163 [java] [DEBUG] Found {} elementinin metnini kontrol et {} in current project scope.
+04-02-2024 22:16:43.163 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'
+04-02-2024 22:16:43.163 [java] [DEBUG] Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope.
+04-02-2024 22:16:43.163 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'
+04-02-2024 22:16:43.163 [java] [DEBUG] Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope.
+04-02-2024 22:16:43.163 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'
+04-02-2024 22:16:43.163 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+04-02-2024 22:16:43.164 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'
+04-02-2024 22:16:43.164 [java] [DEBUG] Found {} elementinin disabled olduğunu kotrol et in current project scope.
+04-02-2024 22:16:43.164 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'
+04-02-2024 22:16:43.164 [java] [DEBUG] Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope.
+04-02-2024 22:16:43.164 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'
+04-02-2024 22:16:43.164 [java] [DEBUG] Found {} saniye bekle in current project scope.
+04-02-2024 22:16:43.164 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'
+04-02-2024 22:16:43.164 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+04-02-2024 22:16:43.164 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'
+04-02-2024 22:16:43.164 [java] [DEBUG] Found {} elementinin {} niteliği {} değerine sahip mi in current project scope.
+04-02-2024 22:16:43.165 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'
+04-02-2024 22:16:43.165 [java] [DEBUG] Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope.
+04-02-2024 22:16:43.165 [java] [DEBUG] Scanning packages for hooks
+04-02-2024 22:16:43.170 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-02-2024 22:16:43.170 [java] [DEBUG] 	{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)
+04-02-2024 22:16:43.170 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException
+04-02-2024 22:16:43.170 [java] [DEBUG] 	{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)
+04-02-2024 22:16:43.170 [java] [DEBUG] 	{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)
+04-02-2024 22:16:43.170 [java] [DEBUG] 	{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)
+04-02-2024 22:16:43.171 [java] [DEBUG] 	{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)
+04-02-2024 22:16:43.171 [java] [DEBUG] 	GET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)
+04-02-2024 22:16:43.171 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+04-02-2024 22:16:43.171 [java] [DEBUG] 	{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException
+04-02-2024 22:16:43.171 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)
+04-02-2024 22:16:43.171 [java] [DEBUG] 	{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)
+04-02-2024 22:16:44.121 [java] [INFO] 2024-02-04 22:16:44 INFO  Reflections:219 scan - Reflections took 945 ms to scan 85 urls, producing 10250 keys and 48504 values
+04-02-2024 22:16:44.191 [Gauge] [DEBUG] Validation completed.
+04-02-2024 22:16:44.191 [Gauge] [DEBUG] Run started
+04-02-2024 22:16:44.193 [Gauge] [DEBUG] Starting Html Report plugin
+04-02-2024 22:16:44.254 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52465
+04-02-2024 22:16:44.256 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52465
+04-02-2024 22:16:44.256 [Gauge] [DEBUG] Initialising suite data store.
+04-02-2024 22:16:44.285 [java] [INFO] 2024-02-04 22:16:44 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:16:44.300 [java] [ERROR] Şub 04, 2024 10:16:44 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:16:44.300 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:16:44.314 [java] [INFO] 2024-02-04 22:16:44 INFO  FrontEndTestBase:112 startSetup - Driver başlatılırken hata oluştu The driver executable does not exist: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/web_driver/chromedriver
+04-02-2024 22:16:44.323 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:16:44.645 [java] [ERROR] 2024-02-04 22:16:44.645 java[9238:317459] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+04-02-2024 22:16:47.369 [java] [INFO] 2024-02-04 22:16:47 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:16:47.370 [java] [ERROR] Şub 04, 2024 10:16:47 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:16:47.372 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:16:47.372 [java] [INFO] 2024-02-04 22:16:47 INFO  FrontEndTestBase:112 startSetup - Driver başlatılırken hata oluştu The driver executable does not exist: /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/web_driver/chromedriver
+04-02-2024 22:16:47.376 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:16:48.215 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-02-2024 22:16:48.242 [html-report] [INFO] Successfully generated html-report to => /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/reports/html-report/index.html
+04-02-2024 22:16:48.242 [html-report] [DEBUG] Done generating HTML report using theme from /Users/eyupcansonmez/.gauge/plugins/html-report/4.0.9/themes/default
+04-02-2024 22:16:48.242 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-02-2024 22:16:48.244 [java] [DEBUG] Killing Java runner...
+04-02-2024 22:16:48.244 [java] [DEBUG] Stopping execution pool...
+04-02-2024 22:16:48.244 [java] [DEBUG] Shutting down grpc server...
+04-02-2024 22:16:48.247 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-02-2024 22:16:48.247 [Gauge] [INFO] Scenarios:	2 executed	0 passed	2 failed	0 skipped
+04-02-2024 22:16:48.247 [Gauge] [INFO] 
+Total time taken: 4.022s
+04-02-2024 22:16:48.247 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-02-2024 22:17:32.828 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/.gauge/screenshots
+04-02-2024 22:17:32.829 [Gauge] [DEBUG] Plugin java is already installed.
+04-02-2024 22:17:32.830 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-02-2024 22:17:32.830 [Gauge] [DEBUG] Parsing started.
+04-02-2024 22:17:32.830 [Gauge] [DEBUG] Started concepts parsing.
+04-02-2024 22:17:32.835 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-02-2024 22:17:32.835 [Gauge] [DEBUG] Started specifications parsing.
+04-02-2024 22:17:32.836 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-02-2024 22:17:32.836 [Gauge] [DEBUG] Parsing completed.
+04-02-2024 22:17:32.848 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-02-2024 22:17:32.866 [java] [DEBUG] PATH: /Users/eyupcansonmez/anaconda3/bin:/Users/eyupcansonmez/anaconda3/condabin:/usr/local/sbin:/Users/eyupcansonmez/Library/Python/3.11/bin:/usr/local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/eyupcansonmez/testinium/sdk/build-tools:/Users/eyupcansonmez/testinium/sdk/platform-tools:/Users/eyupcansonmez/testinium/sdk/tools:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/eyupcansonmez/testinium/maven/apache-maven-3.8.6/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/eyupcansonmez/.gauge/plugins/screenshot/0.1.0
+04-02-2024 22:17:32.866 [java] [DEBUG] JAVA_HOME: /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home
+04-02-2024 22:17:32.866 [java] [DEBUG] gauge_project_root: 
+04-02-2024 22:17:32.866 [java] [DEBUG] gauge_parallel_streams_count: 
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_reports_dir: reports
+04-02-2024 22:17:32.867 [java] [DEBUG] overwrite_reports: true
+04-02-2024 22:17:32.867 [java] [DEBUG] logs_directory: logs
+04-02-2024 22:17:32.867 [java] [DEBUG] enable_multithreading: false
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_specs_dir: specs
+04-02-2024 22:17:32.867 [java] [DEBUG] csv_delimiter: ,
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_java_home: 
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_custom_build_path: 
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_additional_libs: libs/*
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_jvm_args: 
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_custom_compile_dir: 
+04-02-2024 22:17:32.867 [java] [DEBUG] gauge_clear_state_level: scenario
+04-02-2024 22:17:32.867 [java] [DEBUG] ***** END *****
+04-02-2024 22:17:33.330 [Gauge] [DEBUG] Checking updates...
+04-02-2024 22:17:33.331 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:17:33.685 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:17:33.739 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:17:33.805 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:17:33.871 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:17:35.804 [java] [DEBUG] classpath set to /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/charsets.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/dnsns.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jaccess.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/localedata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/nashorn.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunec.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/zipfs.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jce.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfr.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfxswt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jsse.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/management-agent.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/resources.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/rt.jar:/Users/eyupcansonmez/Desktop/AmadeusAutomationProject/target/test-classes:/Users/eyupcansonmez/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eyupcansonmez/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/eyupcansonmez/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/eyupcansonmez/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/eyupcansonmez/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/eyupcansonmez/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/eyupcansonmez/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/eyupcansonmez/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/eyupcansonmez/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/eyupcansonmez/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/eyupcansonmez/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/eyupcansonmez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/eyupcansonmez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/eyupcansonmez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/eyupcansonmez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/eyupcansonmez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eyupcansonmez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/eyupcansonmez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+04-02-2024 22:17:35.818 [java] [DEBUG] found java executable in /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java
+04-02-2024 22:17:35.818 [java] [DEBUG] running - /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-02-2024 22:17:35.818 [java] [DEBUG] stdout/stderr is logged to logs/9253-java.out
+04-02-2024 22:17:35.935 [java] [DEBUG] multithreading is set to false
+04-02-2024 22:17:36.274 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-02-2024 22:17:36.401 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+04-02-2024 22:17:36.401 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+04-02-2024 22:17:36.401 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+04-02-2024 22:17:36.534 [java] [DEBUG] gauge-java took 598milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-02-2024 22:17:36.534 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 598
+04-02-2024 22:17:36.534 [java] [DEBUG] starting gRPC server...
+04-02-2024 22:17:36.672 [java] [DEBUG] started gRPC server on port 52474
+04-02-2024 22:17:36.672 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52474
+04-02-2024 22:17:36.786 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52474
+04-02-2024 22:17:36.786 [Gauge] [DEBUG] Validation started.
+04-02-2024 22:17:38.187 [java] [INFO] 2024-02-04 22:17:38 INFO  Reflections:219 scan - Reflections took 1783 ms to scan 85 urls, producing 10340 keys and 57517 values
+04-02-2024 22:17:38.649 [java] [DEBUG] Scanning packages for steps
+04-02-2024 22:17:38.658 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'
+04-02-2024 22:17:38.658 [java] [DEBUG] Found {} adresinden gelen cevabın yapısını doğrula in current project scope.
+04-02-2024 22:17:38.658 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'
+04-02-2024 22:17:38.658 [java] [DEBUG] Found {} elementinin metnini kontrol et {} in current project scope.
+04-02-2024 22:17:38.658 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'
+04-02-2024 22:17:38.658 [java] [DEBUG] Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope.
+04-02-2024 22:17:38.659 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'
+04-02-2024 22:17:38.659 [java] [DEBUG] Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope.
+04-02-2024 22:17:38.659 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'
+04-02-2024 22:17:38.659 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+04-02-2024 22:17:38.659 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'
+04-02-2024 22:17:38.659 [java] [DEBUG] Found {} elementinin disabled olduğunu kotrol et in current project scope.
+04-02-2024 22:17:38.659 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'
+04-02-2024 22:17:38.659 [java] [DEBUG] Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope.
+04-02-2024 22:17:38.660 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'
+04-02-2024 22:17:38.660 [java] [DEBUG] Found {} saniye bekle in current project scope.
+04-02-2024 22:17:38.660 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'
+04-02-2024 22:17:38.660 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+04-02-2024 22:17:38.660 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'
+04-02-2024 22:17:38.660 [java] [DEBUG] Found {} elementinin {} niteliği {} değerine sahip mi in current project scope.
+04-02-2024 22:17:38.660 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'
+04-02-2024 22:17:38.660 [java] [DEBUG] Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope.
+04-02-2024 22:17:38.661 [java] [DEBUG] Scanning packages for hooks
+04-02-2024 22:17:38.668 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	GET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)
+04-02-2024 22:17:38.668 [java] [DEBUG] 	{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)
+04-02-2024 22:17:39.526 [java] [INFO] 2024-02-04 22:17:39 INFO  Reflections:219 scan - Reflections took 852 ms to scan 85 urls, producing 10250 keys and 48504 values
+04-02-2024 22:17:39.599 [Gauge] [DEBUG] Validation completed.
+04-02-2024 22:17:39.600 [Gauge] [DEBUG] Run started
+04-02-2024 22:17:39.600 [Gauge] [DEBUG] Starting Html Report plugin
+04-02-2024 22:17:39.609 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52480
+04-02-2024 22:17:39.610 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52480
+04-02-2024 22:17:39.611 [Gauge] [DEBUG] Initialising suite data store.
+04-02-2024 22:17:39.636 [java] [INFO] 2024-02-04 22:17:39 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:17:39.650 [java] [ERROR] Şub 04, 2024 10:17:39 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:17:39.650 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:17:40.203 [java] [ERROR] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 15203
+04-02-2024 22:17:40.203 [java] [ERROR] Only local connections are allowed.
+04-02-2024 22:17:40.203 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+04-02-2024 22:17:40.206 [java] [ERROR] ChromeDriver was started successfully.
+04-02-2024 22:17:41.651 [java] [ERROR] Şub 04, 2024 10:17:41 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+04-02-2024 22:17:41.654 [java] [ERROR] INFO: Detected dialect: W3C
+04-02-2024 22:17:42.246 [java] [INFO] 2024-02-04 22:17:42 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+04-02-2024 22:17:42.258 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:17:42.568 [java] [INFO] 2024-02-04 22:17:42 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : From text : Istanbul
+04-02-2024 22:17:42.575 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:17:42.669 [java] [INFO] 2024-02-04 22:17:42 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : To text : Istanbul
+04-02-2024 22:17:42.674 [java] [DEBUG] Executing '{} elementinin metnini kontrol et {}' using 'class com.amadeus.page.FrontEndSteps.checkElementText
+04-02-2024 22:17:42.921 [java] [ERROR] 2024-02-04 22:17:42.921 java[9270:318541] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+04-02-2024 22:17:45.280 [java] [INFO] 2024-02-04 22:17:45 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:17:45.280 [java] [ERROR] Şub 04, 2024 10:17:45 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:17:45.280 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:17:45.308 [java] [ERROR] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 21320
+04-02-2024 22:17:45.308 [java] [ERROR] Only local connections are allowed.
+04-02-2024 22:17:45.308 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+04-02-2024 22:17:45.311 [java] [ERROR] ChromeDriver was started successfully.
+04-02-2024 22:17:46.295 [java] [ERROR] Şub 04, 2024 10:17:46 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+04-02-2024 22:17:46.311 [java] [ERROR] INFO: Detected dialect: W3C
+04-02-2024 22:17:46.968 [java] [INFO] 2024-02-04 22:17:46 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+04-02-2024 22:17:46.976 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:17:47.194 [java] [INFO] 2024-02-04 22:17:47 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : From text : Istanbul
+04-02-2024 22:17:47.198 [java] [DEBUG] Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter
+04-02-2024 22:17:47.286 [java] [INFO] 2024-02-04 22:17:47 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : To text : Los Angeles
+04-02-2024 22:17:47.290 [java] [DEBUG] Executing '{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et' using 'class com.amadeus.page.FrontEndSteps.checkFlightCountMatches
+04-02-2024 22:17:47.327 [java] [INFO] 2024-02-04 22:17:47 INFO  FrontEndSteps:162 checkFlightCountMatches - Beklenen uçuş sayısı: 2, Gerçek uçuş sayısı: 2
+04-02-2024 22:17:47.449 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-02-2024 22:17:47.473 [html-report] [INFO] Successfully generated html-report to => /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/reports/html-report/index.html
+04-02-2024 22:17:47.473 [html-report] [DEBUG] Done generating HTML report using theme from /Users/eyupcansonmez/.gauge/plugins/html-report/4.0.9/themes/default
+04-02-2024 22:17:47.473 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-02-2024 22:17:47.474 [java] [DEBUG] Killing Java runner...
+04-02-2024 22:17:47.475 [java] [DEBUG] Stopping execution pool...
+04-02-2024 22:17:47.475 [java] [DEBUG] Shutting down grpc server...
+04-02-2024 22:17:47.478 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-02-2024 22:17:47.478 [Gauge] [INFO] Scenarios:	2 executed	1 passed	1 failed	0 skipped
+04-02-2024 22:17:47.478 [Gauge] [INFO] 
+Total time taken: 7.849s
+04-02-2024 22:17:47.479 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-02-2024 22:18:11.468 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/.gauge/screenshots
+04-02-2024 22:18:11.469 [Gauge] [DEBUG] Plugin java is already installed.
+04-02-2024 22:18:11.469 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-02-2024 22:18:11.470 [Gauge] [DEBUG] Parsing started.
+04-02-2024 22:18:11.470 [Gauge] [DEBUG] Started concepts parsing.
+04-02-2024 22:18:11.475 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-02-2024 22:18:11.475 [Gauge] [DEBUG] Started specifications parsing.
+04-02-2024 22:18:11.475 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-02-2024 22:18:11.475 [Gauge] [DEBUG] Parsing completed.
+04-02-2024 22:18:11.487 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-02-2024 22:18:11.487 [java] [DEBUG] PATH: /Users/eyupcansonmez/anaconda3/bin:/Users/eyupcansonmez/anaconda3/condabin:/usr/local/sbin:/Users/eyupcansonmez/Library/Python/3.11/bin:/usr/local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/eyupcansonmez/testinium/sdk/build-tools:/Users/eyupcansonmez/testinium/sdk/platform-tools:/Users/eyupcansonmez/testinium/sdk/tools:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/eyupcansonmez/testinium/maven/apache-maven-3.8.6/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/eyupcansonmez/.gauge/plugins/screenshot/0.1.0
+04-02-2024 22:18:11.487 [java] [DEBUG] JAVA_HOME: /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_project_root: 
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_parallel_streams_count: 
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_reports_dir: reports
+04-02-2024 22:18:11.487 [java] [DEBUG] overwrite_reports: true
+04-02-2024 22:18:11.487 [java] [DEBUG] logs_directory: logs
+04-02-2024 22:18:11.487 [java] [DEBUG] enable_multithreading: false
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_specs_dir: specs
+04-02-2024 22:18:11.487 [java] [DEBUG] csv_delimiter: ,
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_java_home: 
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_custom_build_path: 
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_additional_libs: libs/*
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_jvm_args: 
+04-02-2024 22:18:11.487 [java] [DEBUG] gauge_custom_compile_dir: 
+04-02-2024 22:18:11.488 [java] [DEBUG] gauge_clear_state_level: scenario
+04-02-2024 22:18:11.488 [java] [DEBUG] ***** END *****
+04-02-2024 22:18:12.006 [Gauge] [DEBUG] Checking updates...
+04-02-2024 22:18:12.007 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:18:12.347 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:18:12.421 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:18:12.499 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:18:12.560 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+04-02-2024 22:18:14.414 [java] [DEBUG] classpath set to /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/charsets.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/cldrdata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/dnsns.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jaccess.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/jfxrt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/localedata.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/nashorn.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunec.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext/zipfs.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jce.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfr.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfxswt.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jsse.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/management-agent.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/resources.jar:/Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/rt.jar:/Users/eyupcansonmez/Desktop/AmadeusAutomationProject/target/test-classes:/Users/eyupcansonmez/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/eyupcansonmez/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/eyupcansonmez/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/eyupcansonmez/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/eyupcansonmez/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/eyupcansonmez/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/eyupcansonmez/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/eyupcansonmez/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/eyupcansonmez/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/eyupcansonmez/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/eyupcansonmez/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/eyupcansonmez/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/eyupcansonmez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/eyupcansonmez/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/eyupcansonmez/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/eyupcansonmez/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/eyupcansonmez/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/eyupcansonmez/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/eyupcansonmez/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eyupcansonmez/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/eyupcansonmez/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/eyupcansonmez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eyupcansonmez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/eyupcansonmez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/eyupcansonmez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/eyupcansonmez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/eyupcansonmez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+04-02-2024 22:18:14.428 [java] [DEBUG] found java executable in /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java
+04-02-2024 22:18:14.428 [java] [DEBUG] running - /Users/eyupcansonmez/Library/Java/JavaVirtualMachines/corretto-18.0.2/Contents/Home/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-02-2024 22:18:14.428 [java] [DEBUG] stdout/stderr is logged to logs/9319-java.out
+04-02-2024 22:18:14.541 [java] [DEBUG] multithreading is set to false
+04-02-2024 22:18:14.878 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-02-2024 22:18:14.996 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+04-02-2024 22:18:14.996 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+04-02-2024 22:18:14.996 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+04-02-2024 22:18:15.155 [java] [DEBUG] gauge-java took 610milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-02-2024 22:18:15.155 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 610
+04-02-2024 22:18:15.155 [java] [DEBUG] starting gRPC server...
+04-02-2024 22:18:15.295 [java] [DEBUG] started gRPC server on port 52517
+04-02-2024 22:18:15.295 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52517
+04-02-2024 22:18:15.416 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52517
+04-02-2024 22:18:15.416 [Gauge] [DEBUG] Validation started.
+04-02-2024 22:18:16.732 [java] [INFO] 2024-02-04 22:18:16 INFO  Reflections:219 scan - Reflections took 1733 ms to scan 85 urls, producing 10340 keys and 57517 values
+04-02-2024 22:18:17.198 [java] [DEBUG] Scanning packages for steps
+04-02-2024 22:18:17.206 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'
+04-02-2024 22:18:17.206 [java] [DEBUG] Found {} adresinden gelen cevabın yapısını doğrula in current project scope.
+04-02-2024 22:18:17.206 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'
+04-02-2024 22:18:17.206 [java] [DEBUG] Found {} elementinin metnini kontrol et {} in current project scope.
+04-02-2024 22:18:17.207 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'
+04-02-2024 22:18:17.207 [java] [DEBUG] Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope.
+04-02-2024 22:18:17.207 [java] [DEBUG] Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'
+04-02-2024 22:18:17.207 [java] [DEBUG] Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope.
+04-02-2024 22:18:17.207 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'
+04-02-2024 22:18:17.207 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+04-02-2024 22:18:17.208 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'
+04-02-2024 22:18:17.208 [java] [DEBUG] Found {} elementinin disabled olduğunu kotrol et in current project scope.
+04-02-2024 22:18:17.208 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'
+04-02-2024 22:18:17.208 [java] [DEBUG] Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope.
+04-02-2024 22:18:17.208 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'
+04-02-2024 22:18:17.208 [java] [DEBUG] Found {} saniye bekle in current project scope.
+04-02-2024 22:18:17.208 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'
+04-02-2024 22:18:17.208 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+04-02-2024 22:18:17.208 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'
+04-02-2024 22:18:17.208 [java] [DEBUG] Found {} elementinin {} niteliği {} değerine sahip mi in current project scope.
+04-02-2024 22:18:17.209 [java] [DEBUG] Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'
+04-02-2024 22:18:17.209 [java] [DEBUG] Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope.
+04-02-2024 22:18:17.209 [java] [DEBUG] Scanning packages for hooks
+04-02-2024 22:18:17.217 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	GET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)
+04-02-2024 22:18:17.217 [java] [DEBUG] 	{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)
+04-02-2024 22:18:18.031 [java] [INFO] 2024-02-04 22:18:18 INFO  Reflections:219 scan - Reflections took 807 ms to scan 85 urls, producing 10250 keys and 48504 values
+04-02-2024 22:18:18.104 [Gauge] [DEBUG] Validation completed.
+04-02-2024 22:18:18.104 [Gauge] [DEBUG] Run started
+04-02-2024 22:18:18.105 [Gauge] [DEBUG] Starting Html Report plugin
+04-02-2024 22:18:18.116 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52522
+04-02-2024 22:18:18.117 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52522
+04-02-2024 22:18:18.117 [Gauge] [DEBUG] Initialising suite data store.
+04-02-2024 22:18:18.147 [java] [INFO] 2024-02-04 22:18:18 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:18:18.165 [java] [ERROR] Şub 04, 2024 10:18:18 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:18:18.165 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:18:18.387 [java] [ERROR] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 3657
+04-02-2024 22:18:18.387 [java] [ERROR] Only local connections are allowed.
+04-02-2024 22:18:18.387 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+04-02-2024 22:18:18.390 [java] [ERROR] ChromeDriver was started successfully.
+04-02-2024 22:18:19.789 [java] [ERROR] Şub 04, 2024 10:18:19 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+04-02-2024 22:18:19.823 [java] [ERROR] INFO: Detected dialect: W3C
+04-02-2024 22:18:20.533 [java] [INFO] 2024-02-04 22:18:20 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+04-02-2024 22:18:20.546 [java] [DEBUG] Executing 'GET isteği ile {} adresinden 200 status code alındığını doğrula' using 'class com.amadeus.page.ApiSteps.verifyStatusCode
+04-02-2024 22:18:21.553 [java] [INFO] 2024-02-04 22:18:21 INFO  ApiSteps:18 verifyStatusCode - https://flights-api.buraky.workers.dev/ adresine yapılan GET isteği ile alınan status kodu: 200
+04-02-2024 22:18:21.671 [java] [INFO] 2024-02-04 22:18:21 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:18:21.672 [java] [ERROR] Şub 04, 2024 10:18:21 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:18:21.672 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:18:21.695 [java] [ERROR] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 22781
+04-02-2024 22:18:21.695 [java] [ERROR] Only local connections are allowed.
+04-02-2024 22:18:21.695 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+04-02-2024 22:18:21.698 [java] [ERROR] ChromeDriver was started successfully.
+04-02-2024 22:18:22.729 [java] [ERROR] Şub 04, 2024 10:18:22 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+04-02-2024 22:18:22.776 [java] [ERROR] INFO: Detected dialect: W3C
+04-02-2024 22:18:23.427 [java] [INFO] 2024-02-04 22:18:23 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+04-02-2024 22:18:23.442 [java] [DEBUG] Executing '{} adresinden gelen cevabın yapısını doğrula' using 'class com.amadeus.page.ApiSteps.verifyResponseStructure
+04-02-2024 22:18:23.588 [java] [INFO] 2024-02-04 22:18:23 INFO  ApiSteps:25 verifyResponseStructure - https://flights-api.buraky.workers.dev/ adresinden gelen cevap: {
+04-02-2024 22:18:23.588 [java] [INFO] "data": [
+04-02-2024 22:18:23.588 [java] [INFO] {
+04-02-2024 22:18:23.588 [java] [INFO] "id": 1,
+04-02-2024 22:18:23.588 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.588 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.588 [java] [INFO] "date": "2022-12-13"
+04-02-2024 22:18:23.588 [java] [INFO] },
+04-02-2024 22:18:23.588 [java] [INFO] {
+04-02-2024 22:18:23.588 [java] [INFO] "id": 2,
+04-02-2024 22:18:23.588 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.588 [java] [INFO] "to": "LHR",
+04-02-2024 22:18:23.588 [java] [INFO] "date": "2022-12-14"
+04-02-2024 22:18:23.588 [java] [INFO] },
+04-02-2024 22:18:23.588 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 3,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "HND",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-15"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 4,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "SYD",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-16"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 5,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "ORD",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "PEK",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-17"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 6,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "DXB",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-18"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 7,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "HKG",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "FRA",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-19"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 8,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "MAD",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-20"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 9,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-21"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 10,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "CDG",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-22"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 11,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "SYD",
+04-02-2024 22:18:23.589 [java] [INFO] "date": "2022-12-23"
+04-02-2024 22:18:23.589 [java] [INFO] },
+04-02-2024 22:18:23.589 [java] [INFO] {
+04-02-2024 22:18:23.589 [java] [INFO] "id": 12,
+04-02-2024 22:18:23.589 [java] [INFO] "from": "ORD",
+04-02-2024 22:18:23.589 [java] [INFO] "to": "HKG",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-24"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 13,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-25"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 14,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "LHR",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-26"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 15,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "PEK",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-27"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 16,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "SIN",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "FRA",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-28"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 17,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "IST",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-29"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 18,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "HND",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "JFK",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-30"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 19,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "LHR",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2022-12-31"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 20,
+04-02-2024 22:18:23.590 [java] [INFO] "from": "SYD",
+04-02-2024 22:18:23.590 [java] [INFO] "to": "ORD",
+04-02-2024 22:18:23.590 [java] [INFO] "date": "2023-01-01"
+04-02-2024 22:18:23.590 [java] [INFO] },
+04-02-2024 22:18:23.590 [java] [INFO] {
+04-02-2024 22:18:23.590 [java] [INFO] "id": 21,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "PEK",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-02"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 22,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-03"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 23,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "HKG",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-04"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 24,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "FRA",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-05"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 25,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-06"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 26,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "SYD",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-07"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 27,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "ORD",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-08"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 28,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-09"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 29,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "HND",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-10"
+04-02-2024 22:18:23.591 [java] [INFO] },
+04-02-2024 22:18:23.591 [java] [INFO] {
+04-02-2024 22:18:23.591 [java] [INFO] "id": 30,
+04-02-2024 22:18:23.591 [java] [INFO] "from": "LHR",
+04-02-2024 22:18:23.591 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.591 [java] [INFO] "date": "2023-01-11"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 10,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-13"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 20,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "LHR",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-14"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 30,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "HND",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-15"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 40,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "SYD",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-16"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 50,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "ORD",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "PEK",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-17"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 60,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "DXB",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-18"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 70,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "HKG",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "FRA",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-19"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 80,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "MAD",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-20"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.592 [java] [INFO] "id": 90,
+04-02-2024 22:18:23.592 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.592 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.592 [java] [INFO] "date": "2023-12-21"
+04-02-2024 22:18:23.592 [java] [INFO] },
+04-02-2024 22:18:23.592 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 100,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "CDG",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-22"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 110,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "SYD",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-23"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 120,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "ORD",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "HKG",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-24"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 130,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-25"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 140,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "LHR",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-26"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 150,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "PEK",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-27"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 160,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "SIN",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "FRA",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-28"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 170,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "IST",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-29"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.593 [java] [INFO] "id": 180,
+04-02-2024 22:18:23.593 [java] [INFO] "from": "HND",
+04-02-2024 22:18:23.593 [java] [INFO] "to": "JFK",
+04-02-2024 22:18:23.593 [java] [INFO] "date": "2023-12-30"
+04-02-2024 22:18:23.593 [java] [INFO] },
+04-02-2024 22:18:23.593 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 190,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "LHR",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "LAX",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2023-12-31"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 200,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "SYD",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "ORD",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-01"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 210,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "PEK",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-02"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 220,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-03"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 230,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "HKG",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "SIN",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-04"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 240,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "FRA",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-05"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 250,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "IST",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-06"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 260,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "JFK",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "SYD",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-07"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 270,
+04-02-2024 22:18:23.594 [java] [INFO] "from": "LAX",
+04-02-2024 22:18:23.594 [java] [INFO] "to": "ORD",
+04-02-2024 22:18:23.594 [java] [INFO] "date": "2024-01-08"
+04-02-2024 22:18:23.594 [java] [INFO] },
+04-02-2024 22:18:23.594 [java] [INFO] {
+04-02-2024 22:18:23.594 [java] [INFO] "id": 280,
+04-02-2024 22:18:23.595 [java] [INFO] "from": "CDG",
+04-02-2024 22:18:23.595 [java] [INFO] "to": "DXB",
+04-02-2024 22:18:23.595 [java] [INFO] "date": "2024-01-09"
+04-02-2024 22:18:23.595 [java] [INFO] },
+04-02-2024 22:18:23.595 [java] [INFO] {
+04-02-2024 22:18:23.595 [java] [INFO] "id": 290,
+04-02-2024 22:18:23.595 [java] [INFO] "from": "HND",
+04-02-2024 22:18:23.595 [java] [INFO] "to": "MAD",
+04-02-2024 22:18:23.595 [java] [INFO] "date": "2024-01-10"
+04-02-2024 22:18:23.595 [java] [INFO] },
+04-02-2024 22:18:23.595 [java] [INFO] {
+04-02-2024 22:18:23.595 [java] [INFO] "id": 300,
+04-02-2024 22:18:23.595 [java] [INFO] "from": "LHR",
+04-02-2024 22:18:23.595 [java] [INFO] "to": "FCO",
+04-02-2024 22:18:23.595 [java] [INFO] "date": "2024-01-11"
+04-02-2024 22:18:23.595 [java] [INFO] }
+04-02-2024 22:18:23.595 [java] [INFO] ]
+04-02-2024 22:18:23.595 [java] [INFO] }
+04-02-2024 22:18:24.144 [java] [INFO] 2024-02-04 22:18:24 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+04-02-2024 22:18:24.145 [java] [ERROR] Şub 04, 2024 10:18:24 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+04-02-2024 22:18:24.145 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+04-02-2024 22:18:24.168 [java] [ERROR] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 32611
+04-02-2024 22:18:24.168 [java] [ERROR] Only local connections are allowed.
+04-02-2024 22:18:24.168 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+04-02-2024 22:18:24.171 [java] [ERROR] ChromeDriver was started successfully.
+04-02-2024 22:18:25.188 [java] [ERROR] Şub 04, 2024 10:18:25 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+04-02-2024 22:18:25.202 [java] [ERROR] INFO: Detected dialect: W3C
+04-02-2024 22:18:25.809 [java] [INFO] 2024-02-04 22:18:25 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+04-02-2024 22:18:25.823 [java] [DEBUG] Executing '{} adresinden gelen cevabın Content-Type header'ını doğrula' using 'class com.amadeus.page.ApiSteps.verifyContentTypeHeader
+04-02-2024 22:18:25.942 [java] [INFO] 2024-02-04 22:18:25 INFO  ApiSteps:39 verifyContentTypeHeader - https://flights-api.buraky.workers.dev/ adresinden gelen cevabın Content-Type header'ı: application/json
+04-02-2024 22:18:26.064 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-02-2024 22:18:26.082 [html-report] [INFO] Successfully generated html-report to => /Users/eyupcansonmez/Desktop/AmadeusAutomationProject/reports/html-report/index.html
+04-02-2024 22:18:26.082 [html-report] [DEBUG] Done generating HTML report using theme from /Users/eyupcansonmez/.gauge/plugins/html-report/4.0.9/themes/default
+04-02-2024 22:18:26.082 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-02-2024 22:18:26.083 [java] [DEBUG] Killing Java runner...
+04-02-2024 22:18:26.084 [java] [DEBUG] Stopping execution pool...
+04-02-2024 22:18:26.084 [java] [DEBUG] Shutting down grpc server...
+04-02-2024 22:18:26.087 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-02-2024 22:18:26.087 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+04-02-2024 22:18:26.087 [Gauge] [INFO] 
+Total time taken: 7.96s
+04-02-2024 22:18:26.088 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

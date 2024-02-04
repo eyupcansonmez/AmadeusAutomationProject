@@ -1,0 +1,33 @@
+[
+
+  {
+    "key" : "From",
+    "value" : "headlessui-combobox-input-:Rq9lla:",
+    "type" : "id"
+  },
+  {
+    "key" : "To",
+    "value" : "headlessui-combobox-input-:Rqhlla:",
+    "type" : "id"
+  },
+  {
+    "key" : "IstanbulChoose",
+    "value" : "//*[@id=\"headlessui-combobox-option-:rt:\"]/div/span[1]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "ReturningMessage",
+    "value" : "/html/body/main/div[2]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "GercekUcus",
+    "value" : "ul.grid > li",
+    "type" : "css"
+  },
+  {
+    "key" : "ListelenenUcus",
+    "value" : "p.mb-10",
+    "type" : "css"
+  }
+]

@@ -1,0 +1,451 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 610milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 610"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52517"}
+{"logLevel":"info","message":"Listening on port:52517"}
+2024-02-04 22:18:16 INFO  Reflections:219 scan - Reflections took 1733 ms to scan 85 urls, producing 10340 keys and 57517 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'"}
+{"logLevel":"debug","message":"Found {} adresinden gelen cevabın yapısını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin metnini kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'"}
+{"logLevel":"debug","message":"Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'"}
+{"logLevel":"debug","message":"Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'"}
+{"logLevel":"debug","message":"Found {} elementinin disabled olduğunu kotrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'"}
+{"logLevel":"debug","message":"Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'"}
+{"logLevel":"debug","message":"Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)"}
+{"logLevel":"debug","message":"\t{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)"}
+{"logLevel":"debug","message":"\t{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)"}
+{"logLevel":"debug","message":"\tGET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)"}
+2024-02-04 22:18:18 INFO  Reflections:219 scan - Reflections took 807 ms to scan 85 urls, producing 10250 keys and 48504 values
+2024-02-04 22:18:18 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+Şub 04, 2024 10:18:18 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 3657
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 04, 2024 10:18:19 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-02-04 22:18:20 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+{"logLevel":"debug","message":"Executing 'GET isteği ile {} adresinden 200 status code alındığını doğrula' using 'class com.amadeus.page.ApiSteps.verifyStatusCode"}
+2024-02-04 22:18:21 INFO  ApiSteps:18 verifyStatusCode - https://flights-api.buraky.workers.dev/ adresine yapılan GET isteği ile alınan status kodu: 200
+2024-02-04 22:18:21 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+Şub 04, 2024 10:18:21 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 22781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 04, 2024 10:18:22 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-02-04 22:18:23 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+{"logLevel":"debug","message":"Executing '{} adresinden gelen cevabın yapısını doğrula' using 'class com.amadeus.page.ApiSteps.verifyResponseStructure"}
+2024-02-04 22:18:23 INFO  ApiSteps:25 verifyResponseStructure - https://flights-api.buraky.workers.dev/ adresinden gelen cevap: {
+  "data": [
+    {
+      "id": 1,
+      "from": "IST",
+      "to": "LAX",
+      "date": "2022-12-13"
+    },
+    {
+      "id": 2,
+      "from": "JFK",
+      "to": "LHR",
+      "date": "2022-12-14"
+    },
+    {
+      "id": 3,
+      "from": "CDG",
+      "to": "HND",
+      "date": "2022-12-15"
+    },
+    {
+      "id": 4,
+      "from": "SYD",
+      "to": "LAX",
+      "date": "2022-12-16"
+    },
+    {
+      "id": 5,
+      "from": "ORD",
+      "to": "PEK",
+      "date": "2022-12-17"
+    },
+    {
+      "id": 6,
+      "from": "DXB",
+      "to": "SIN",
+      "date": "2022-12-18"
+    },
+    {
+      "id": 7,
+      "from": "HKG",
+      "to": "FRA",
+      "date": "2022-12-19"
+    },
+    {
+      "id": 8,
+      "from": "MAD",
+      "to": "FCO",
+      "date": "2022-12-20"
+    },
+    {
+      "id": 9,
+      "from": "IST",
+      "to": "SIN",
+      "date": "2022-12-21"
+    },
+    {
+      "id": 10,
+      "from": "JFK",
+      "to": "CDG",
+      "date": "2022-12-22"
+    },
+    {
+      "id": 11,
+      "from": "LAX",
+      "to": "SYD",
+      "date": "2022-12-23"
+    },
+    {
+      "id": 12,
+      "from": "ORD",
+      "to": "HKG",
+      "date": "2022-12-24"
+    },
+    {
+      "id": 13,
+      "from": "IST",
+      "to": "MAD",
+      "date": "2022-12-25"
+    },
+    {
+      "id": 14,
+      "from": "LAX",
+      "to": "LHR",
+      "date": "2022-12-26"
+    },
+    {
+      "id": 15,
+      "from": "PEK",
+      "to": "DXB",
+      "date": "2022-12-27"
+    },
+    {
+      "id": 16,
+      "from": "SIN",
+      "to": "FRA",
+      "date": "2022-12-28"
+    },
+    {
+      "id": 17,
+      "from": "CDG",
+      "to": "IST",
+      "date": "2022-12-29"
+    },
+    {
+      "id": 18,
+      "from": "HND",
+      "to": "JFK",
+      "date": "2022-12-30"
+    },
+    {
+      "id": 19,
+      "from": "LHR",
+      "to": "LAX",
+      "date": "2022-12-31"
+    },
+    {
+      "id": 20,
+      "from": "SYD",
+      "to": "ORD",
+      "date": "2023-01-01"
+    },
+    {
+      "id": 21,
+      "from": "IST",
+      "to": "PEK",
+      "date": "2023-01-02"
+    },
+    {
+      "id": 22,
+      "from": "LAX",
+      "to": "DXB",
+      "date": "2023-01-03"
+    },
+    {
+      "id": 23,
+      "from": "HKG",
+      "to": "SIN",
+      "date": "2023-01-04"
+    },
+    {
+      "id": 24,
+      "from": "FRA",
+      "to": "MAD",
+      "date": "2023-01-05"
+    },
+    {
+      "id": 25,
+      "from": "IST",
+      "to": "FCO",
+      "date": "2023-01-06"
+    },
+    {
+      "id": 26,
+      "from": "JFK",
+      "to": "SYD",
+      "date": "2023-01-07"
+    },
+    {
+      "id": 27,
+      "from": "LAX",
+      "to": "ORD",
+      "date": "2023-01-08"
+    },
+    {
+      "id": 28,
+      "from": "CDG",
+      "to": "DXB",
+      "date": "2023-01-09"
+    },
+    {
+      "id": 29,
+      "from": "HND",
+      "to": "MAD",
+      "date": "2023-01-10"
+    },
+    {
+      "id": 30,
+      "from": "LHR",
+      "to": "FCO",
+      "date": "2023-01-11"
+    },
+    {
+      "id": 10,
+      "from": "IST",
+      "to": "LAX",
+      "date": "2023-12-13"
+    },
+    {
+      "id": 20,
+      "from": "JFK",
+      "to": "LHR",
+      "date": "2023-12-14"
+    },
+    {
+      "id": 30,
+      "from": "CDG",
+      "to": "HND",
+      "date": "2023-12-15"
+    },
+    {
+      "id": 40,
+      "from": "SYD",
+      "to": "LAX",
+      "date": "2023-12-16"
+    },
+    {
+      "id": 50,
+      "from": "ORD",
+      "to": "PEK",
+      "date": "2023-12-17"
+    },
+    {
+      "id": 60,
+      "from": "DXB",
+      "to": "SIN",
+      "date": "2023-12-18"
+    },
+    {
+      "id": 70,
+      "from": "HKG",
+      "to": "FRA",
+      "date": "2023-12-19"
+    },
+    {
+      "id": 80,
+      "from": "MAD",
+      "to": "FCO",
+      "date": "2023-12-20"
+    },
+    {
+      "id": 90,
+      "from": "IST",
+      "to": "SIN",
+      "date": "2023-12-21"
+    },
+    {
+      "id": 100,
+      "from": "JFK",
+      "to": "CDG",
+      "date": "2023-12-22"
+    },
+    {
+      "id": 110,
+      "from": "LAX",
+      "to": "SYD",
+      "date": "2023-12-23"
+    },
+    {
+      "id": 120,
+      "from": "ORD",
+      "to": "HKG",
+      "date": "2023-12-24"
+    },
+    {
+      "id": 130,
+      "from": "IST",
+      "to": "MAD",
+      "date": "2023-12-25"
+    },
+    {
+      "id": 140,
+      "from": "LAX",
+      "to": "LHR",
+      "date": "2023-12-26"
+    },
+    {
+      "id": 150,
+      "from": "PEK",
+      "to": "DXB",
+      "date": "2023-12-27"
+    },
+    {
+      "id": 160,
+      "from": "SIN",
+      "to": "FRA",
+      "date": "2023-12-28"
+    },
+    {
+      "id": 170,
+      "from": "CDG",
+      "to": "IST",
+      "date": "2023-12-29"
+    },
+    {
+      "id": 180,
+      "from": "HND",
+      "to": "JFK",
+      "date": "2023-12-30"
+    },
+    {
+      "id": 190,
+      "from": "LHR",
+      "to": "LAX",
+      "date": "2023-12-31"
+    },
+    {
+      "id": 200,
+      "from": "SYD",
+      "to": "ORD",
+      "date": "2024-01-01"
+    },
+    {
+      "id": 210,
+      "from": "IST",
+      "to": "PEK",
+      "date": "2024-01-02"
+    },
+    {
+      "id": 220,
+      "from": "LAX",
+      "to": "DXB",
+      "date": "2024-01-03"
+    },
+    {
+      "id": 230,
+      "from": "HKG",
+      "to": "SIN",
+      "date": "2024-01-04"
+    },
+    {
+      "id": 240,
+      "from": "FRA",
+      "to": "MAD",
+      "date": "2024-01-05"
+    },
+    {
+      "id": 250,
+      "from": "IST",
+      "to": "FCO",
+      "date": "2024-01-06"
+    },
+    {
+      "id": 260,
+      "from": "JFK",
+      "to": "SYD",
+      "date": "2024-01-07"
+    },
+    {
+      "id": 270,
+      "from": "LAX",
+      "to": "ORD",
+      "date": "2024-01-08"
+    },
+    {
+      "id": 280,
+      "from": "CDG",
+      "to": "DXB",
+      "date": "2024-01-09"
+    },
+    {
+      "id": 290,
+      "from": "HND",
+      "to": "MAD",
+      "date": "2024-01-10"
+    },
+    {
+      "id": 300,
+      "from": "LHR",
+      "to": "FCO",
+      "date": "2024-01-11"
+    }
+  ]
+}
+2024-02-04 22:18:24 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+Şub 04, 2024 10:18:24 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 32611
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 04, 2024 10:18:25 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-02-04 22:18:25 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+{"logLevel":"debug","message":"Executing '{} adresinden gelen cevabın Content-Type header'ını doğrula' using 'class com.amadeus.page.ApiSteps.verifyContentTypeHeader"}
+2024-02-04 22:18:25 INFO  ApiSteps:39 verifyContentTypeHeader - https://flights-api.buraky.workers.dev/ adresinden gelen cevabın Content-Type header'ı: application/json
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

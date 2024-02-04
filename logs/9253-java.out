@@ -1,0 +1,84 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 598milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 598"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52474"}
+{"logLevel":"info","message":"Listening on port:52474"}
+2024-02-04 22:17:38 INFO  Reflections:219 scan - Reflections took 1783 ms to scan 85 urls, producing 10340 keys and 57517 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyResponseStructure' and 'com.amadeus.page.ApiSteps.verifyResponseStructure'"}
+{"logLevel":"debug","message":"Found {} adresinden gelen cevabın yapısını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkElementText' and 'com.amadeus.page.FrontEndSteps.checkElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin metnini kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyContentTypeHeader' and 'com.amadeus.page.ApiSteps.verifyContentTypeHeader'"}
+{"logLevel":"debug","message":"Found {} adresinden gelen cevabın Content-Type header'ını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.ApiSteps.verifyStatusCode' and 'com.amadeus.page.ApiSteps.verifyStatusCode'"}
+{"logLevel":"debug","message":"Found GET isteği ile {} adresinden 200 status code alındığını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkElementEqualsText' and 'com.amadeus.page.FrontEndSteps.checkElementEqualsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkDisabled' and 'com.amadeus.page.FrontEndSteps.checkDisabled'"}
+{"logLevel":"debug","message":"Found {} elementinin disabled olduğunu kotrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter' and 'com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter'"}
+{"logLevel":"debug","message":"Found {} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.waitSecond' and 'com.amadeus.page.FrontEndSteps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.clickElement' and 'com.amadeus.page.FrontEndSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck' and 'com.amadeus.page.FrontEndSteps.elementAttributeValueCheck'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches' and 'com.amadeus.page.FrontEndSteps.checkFlightCountMatches'"}
+{"logLevel":"debug","message":"Found {} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas : public void sendKeysAndPressEnter(String key, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)"}
+{"logLevel":"debug","message":"\t{} adresinden gelen cevabın yapısını doğrula : public void verifyResponseStructure(String endpoint)"}
+{"logLevel":"debug","message":"\t{} elementinin metnini kontrol et {} : public void checkElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et : public void checkFlightCountMatches(String foundItemsKey, String flightListKey)"}
+{"logLevel":"debug","message":"\tGET isteği ile {} adresinden 200 status code alındığını doğrula : public void verifyStatusCode(String endpoint)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} adresinden gelen cevabın Content-Type header'ını doğrula : public void verifyContentTypeHeader(String endpoint)"}
+2024-02-04 22:17:39 INFO  Reflections:219 scan - Reflections took 852 ms to scan 85 urls, producing 10250 keys and 48504 values
+2024-02-04 22:17:39 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+Şub 04, 2024 10:17:39 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 15203
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 04, 2024 10:17:41 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-02-04 22:17:42 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+{"logLevel":"debug","message":"Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter"}
+2024-02-04 22:17:42 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : From text : Istanbul
+{"logLevel":"debug","message":"Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter"}
+2024-02-04 22:17:42 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : To text : Istanbul
+{"logLevel":"debug","message":"Executing '{} elementinin metnini kontrol et {}' using 'class com.amadeus.page.FrontEndSteps.checkElementText"}
+2024-02-04 22:17:42.921 java[9270:318541] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-04 22:17:45 INFO  FrontEndTestBase:108 startSetup - Cihazda mac ortamında chrome browserinda test ayağa kalkacak
+Şub 04, 2024 10:17:45 ÖS org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 21320
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 04, 2024 10:17:46 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-02-04 22:17:46 INFO  FrontEndTestBase:97 setupBrowser - https://flights-app.pages.dev/ adresi açılıyor.
+{"logLevel":"debug","message":"Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter"}
+2024-02-04 22:17:47 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : From text : Istanbul
+{"logLevel":"debug","message":"Executing '{} li elementi bul, temizle ve {} değerini yaz, ardından Enter'a bas' using 'class com.amadeus.page.FrontEndSteps.sendKeysAndPressEnter"}
+2024-02-04 22:17:47 INFO  FrontEndSteps:82 sendKeysAndPressEnter - Element bulundu, yazıldı ve Enter'a basıldı: Key : To text : Los Angeles
+{"logLevel":"debug","message":"Executing '{} elementindeki yazıda belirtilen uçuş sayısı ile gerçek uçuş sayısı {} eşleşiyor mu kontrol et' using 'class com.amadeus.page.FrontEndSteps.checkFlightCountMatches"}
+2024-02-04 22:17:47 INFO  FrontEndSteps:162 checkFlightCountMatches - Beklenen uçuş sayısı: 2, Gerçek uçuş sayısı: 2
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

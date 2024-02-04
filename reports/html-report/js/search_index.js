@@ -1,0 +1,1 @@
+var index = {"Tags":{"api_header_testleri":["specs/api/FlightApiValidation.html"],"api_response_yapi_testleri":["specs/api/FlightApiValidation.html"],"api_status_code_testleri":["specs/api/FlightApiValidation.html"]},"Specs":{"AmadeusBackEndAutomationProject":["specs/api/FlightApiValidation.html"]}};
